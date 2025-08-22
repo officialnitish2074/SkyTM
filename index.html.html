@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ice Cream Parlour</title>
+    
+    <!-- Styling Section -->
+    <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background-image: url('/EXTRAS/iceback2.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .menu-item img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #f8bbd0;
+      color: #333;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <!-- Body Section -->
+  <body>
+    
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+  <div class="container-fluid" style="background-color: rgb(88, 13, 13);">
+    <a class="navbar-brand" href="#">
+        <img src="/EXTRAS/ice_cream_logo-removebg-preview.png" alt="Error" height="120" width="130">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" style="color:white"><b>Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#contact" style="color:white" ><b>Contact</b></a>
+        </li>   
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<div style="background-color: rgb(245, 219, 223); color: maroon;">
+      <h1 style="text-align: center;">Welcome to Frosty Delight Ice-Cream Parlour</h1>
+</div>
+
+<!-- Hero Section -->
+<div class="hero">
+  <h1 style="color:black;">Scoop into Happiness!</h1>
+  <p >Fresh, creamy & handmade just for you.</p>
+  <a  href="#menu" class="btn btn-light"  style="background-color:yellow" ><b>Order Now</b></a>
+</div>
+
+<!-- Menu Section -->
+<div class="container my-5" id="menu" >
+  <h2 class="text-center mb-4" style="background-color: #f8bbd0;">Our Flavours</h2>
+  <div class="row g-4" >
+    <div class="col-md-4 menu-item">
+      <div class="card" aria-setsize="me-auto">
+        <img src="/EXTRAS/bla_cu_ice.webp" class="card-img-top " alt="Strawberry Ice Cream" style="object-fit: cover;" height="me-auto" width="me-auto">
+        <div class="card-body" >
+          <h2 class="card-title">Black Current</h2>
+          <p stylclass="card-text" style="font-size: 30px;">₹250</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 menu-item">
+      <div class="card " aria-setsize="me-auto">
+        <img src="/EXTRAS/bu_ice.webp" class="card-img-top" alt="Chocolate Ice Cream" style="object-fit: fill;" height="me-auto" width="me-auto">
+        <div class="card-body">
+          <h2 class="card-title" >Butter Scotch</h2>
+          <p class="card-text" style="font-size: 30px">₹210</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 menu-item">
+      <div class="card" aria-setsize="me-auto">
+        <img src="EXTRAS/cho_ice.jpg" class="card-img-top" alt="Vanilla Ice Cream" style="object-fit: fill;" height="me-auto" width="me-auto">
+        <div class="card-body">
+          <h2 class="card-title">Choco Chips</h2>
+          <p class="card-text" style="font-size: 30px">₹300</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="container my-5" id="contact">
+  <h2 class="text-center mb-4" style="background-color:rgb(187, 4, 35); color:whitesmoke;">Contact Us</h2>
+  <form >
+    <div class="mb-3">
+      <label for="name" class="form-label" >Name</label>
+      <input type="text" class="form-control" id="name" required >
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" required >
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" rows="4" required ></textarea></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" >Send Message</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p >&copy; 2025 Frosty Delights | Made with 💖 for ice cream lovers</p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
